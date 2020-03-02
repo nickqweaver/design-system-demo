@@ -1,0 +1,15 @@
+{
+    "mode": "typescript",
+    "packageName": "../soc-demo",
+    "tsConfigPath": "../soc-demo/tsconfig.js",
+    "rootFiles": [
+        "../soc-demo/index.tsx"
+    ],
+    "additionalImports": [],
+    "out": "code/",
+    "components": {
+        "Button": {
+            "ignore": false
+        }
+    }
+}
