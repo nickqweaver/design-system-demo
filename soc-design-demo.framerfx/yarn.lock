@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@framer/sendoutcards.soc-demo@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.framer.com/@framer/sendoutcards.soc-demo/-/@framer/sendoutcards.soc-demo-1.7.0.tgz#f2b83c73436744e8eb361c1286ae8929bc4c99f3"
+  integrity sha512-NGWwOTLHMuHoL1p0fMA4C48bw2FXJMLnWzi5p2HBmvxsSvlFrDFPS/YRPw3zaxBcXldM5im9f7h2/XMMTbNCPQ==
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"

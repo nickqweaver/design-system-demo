@@ -3,7 +3,7 @@
     "packageName": "../style-guide/src",
     "tsConfigPath": "../style-guide/src/tsconfig.json",
     "rootFiles": [
-        "../style-guide/src/index.tsx"
+        "../style-guide/src/exports.tsx"
     ],
     "additionalImports": [],
     "out": "code/",
