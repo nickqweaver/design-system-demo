@@ -1,7 +1,7 @@
 {
     "mode": "typescript",
     "packageName": "../soc-demo",
-    "tsConfigPath": "../soc-demo/tsconfig.js",
+    "tsConfigPath": "../soc-demo/tsconfig.json",
     "rootFiles": [
         "../soc-demo/index.tsx"
     ],

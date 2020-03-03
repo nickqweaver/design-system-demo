@@ -16,11 +16,8 @@
             "aspectRatio" : null,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
-            "blur" : 3,
-            "blurEnabled" : -1,
-            "blurType" : "layer",
             "borderBottom" : 1,
-            "borderColor" : "hsl(0, 0%, 100%)",
+            "borderColor" : "#222",
             "borderEnabled" : -1,
             "borderLeft" : 1,
             "borderPerSide" : false,
@@ -29,30 +26,8 @@
             "borderTop" : 1,
             "borderWidth" : 1,
             "bottom" : null,
-            "boxShadows" : [
-              {
-                "__class" : "BoxShadow",
-                "blur" : 5,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : false,
-                "inset" : true,
-                "spread" : 0,
-                "x" : 0,
-                "y" : 2
-              },
-              {
-                "__class" : "BoxShadow",
-                "blur" : 5,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : false,
-                "inset" : false,
-                "spread" : 0,
-                "x" : 0,
-                "y" : 2
-              }
-            ],
-            "centerAnchorX" : 0.15142428785607195,
-            "centerAnchorY" : 0.184,
+            "centerAnchorX" : 0.10869565217391304,
+            "centerAnchorY" : 0.1716937354988399,
             "children" : [
 
             ],
@@ -63,7 +38,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "rgba(255, 0, 106, 0.78)",
+            "fillColor" : "hsla(167, 100%, 51%, 0.5)",
             "fillEnabled" : true,
             "fillImage" : null,
             "fillImageOriginalName" : null,
@@ -77,24 +52,24 @@
             "guidesY" : [
 
             ],
-            "height" : 40,
+            "height" : 38,
             "heightType" : 0,
-            "id" : "WPJbMGts2",
+            "id" : "XEw3H5NjD",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
-            "isMaster" : true,
+            "isMaster" : false,
             "isTarget" : false,
-            "left" : 41,
+            "left" : 22,
             "locked" : false,
-            "name" : "Button",
+            "name" : null,
             "navigationTarget" : null,
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
             "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
-            "parentid" : "alIpFjW0m",
+            "parentid" : "s_2xeboEF",
             "previewSettings" : null,
             "radius" : 8,
             "radiusBottomLeft" : 8,
@@ -106,70 +81,16 @@
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "top" : 49,
+            "top" : 55,
             "visible" : true,
-            "width" : 120,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.42728635682158922,
-            "centerAnchorY" : 0.13066666666666665,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/Button.tsx_Button",
-            "codeComponentProps" : {
-              "text" : "Heck yeah props"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 50,
-            "heightType" : 0,
-            "id" : "om8xgXLKN",
-            "intrinsicHeight" : 50,
-            "intrinsicWidth" : 150,
-            "left" : 210,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "alIpFjW0m",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 24,
-            "visible" : true,
-            "width" : 150,
+            "width" : 156,
             "widthType" : 0
           }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : "framer\/FramerAppleIPhone8",
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -187,9 +108,9 @@
         "guidesY" : [
 
         ],
-        "height" : 375,
+        "height" : 431,
         "heightType" : 0,
-        "id" : "alIpFjW0m",
+        "id" : "s_2xeboEF",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
         "isExternalMaster" : null,
@@ -204,7 +125,7 @@
         "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
-        "parentid" : "Km7r8JSXx",
+        "parentid" : "DmQ84CV0l",
         "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
@@ -218,7 +139,7 @@
         "rotation" : 0,
         "top" : 0,
         "visible" : true,
-        "width" : 667,
+        "width" : 920,
         "widthType" : 0
       }
     ],
@@ -228,7 +149,7 @@
     "guidesY" : [
 
     ],
-    "id" : "Km7r8JSXx",
+    "id" : "DmQ84CV0l",
     "name" : null,
     "originalid" : null,
     "parentid" : null,

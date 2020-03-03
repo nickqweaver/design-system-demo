@@ -1,20 +1,27 @@
 {
-  "name": "design-system",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "keywords": [
-    "design system",
-    "soc"
-  ],
-  "author": "Nick Weaver",
-  "license": "MIT",
-  "dependencies": {
-    "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0",
-    "typescript": "^3.4.3"
-  }
+	"license": "MIT",
+	"name": "design-system",
+	"version": "0.0.1",
+	"description": "",
+	"main": "dist/index.js",
+	"keywords": [
+		"design system",
+		"soc"
+	],
+	"author": "Nick Weaver",
+	"dependencies": {
+		"@types/react": "^16.9.23",
+		"@types/react-dom": "^16.9.5",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"styled-components": "^4.2.0",
+		"typescript": "^3.4.3"
+	},
+	"peerDependencies": {
+		"framer": "^1"
+	},
+	"devDependencies": {},
+	"framer": {
+		"displayName": ""
+	}
 }

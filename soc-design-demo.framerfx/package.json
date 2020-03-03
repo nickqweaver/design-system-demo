@@ -1,6 +1,6 @@
 {
-	"main": "dist/index.js",
 	"license": "MIT",
+	"main": "dist/index.js",
 	"devDependencies": {
 		"@types/react": "^16.8"
 	},
@@ -9,7 +9,10 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"id": "30a11c84-d04f-4bfa-975e-39a44f0beed7"
+		"displayName": ""
 	},
-	"author": "Nick Weaver"
+	"author": "Nick Weaver",
+	"name": "",
+	"version": "1.0.0",
+	"dependencies": {}
 }
