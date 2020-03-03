@@ -9,10 +9,11 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "SOC Demo"
+		"displayName": "SOC Demo",
+		"id": "e1ca876e-255a-4393-b5df-1350af0683ce"
 	},
 	"author": "Nick Weaver",
 	"name": "@framer/sendoutcards.soc-demo",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"dependencies": {}
 }
