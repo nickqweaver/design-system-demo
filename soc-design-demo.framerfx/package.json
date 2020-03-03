@@ -16,6 +16,8 @@
 	"name": "@framer/sendoutcards.soc-demo",
 	"version": "1.7.0",
 	"dependencies": {
-		"@framer/sendoutcards.soc-demo": "^1.7.0"
+		"@emotion/core": "^10.0.28",
+		"@framer/sendoutcards.soc-demo": "^1.7.0",
+		"emotion": "^10.0.27"
 	}
 }
