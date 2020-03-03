@@ -1,13 +1,15 @@
 {
-  "mode": "typescript",
-  "packageName": "../style-guide/src",
-  "tsConfigPath": "../style-guide/src/tsconfig.json",
-  "rootFiles": ["../style-guide/src/exports.tsx"],
-  "additionalImports": [],
-  "out": "code/",
-  "components": {
-    "PrimaryButton": {
-      "ignore": false
+    "mode": "typescript",
+    "packageName": "../style-guide/src/framer",
+    "tsConfigPath": "../style-guide/src/framer/tsconfig.json",
+    "rootFiles": [
+        "../style-guide/src/framer/index.tsx"
+    ],
+    "additionalImports": [],
+    "out": "code/",
+    "components": {
+        "PrimaryButton": {
+            "ignore": false
+        }
     }
-  }
 }
