@@ -9,7 +9,7 @@ jobs:
       - name: Build
         uses: framer/bridge@master
         with:
-          args: build soc-design-demo.framerfx
+          args: FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} build soc-design-demo.framerfx
 
       - name: Publish
         uses: framer/bridge@master
