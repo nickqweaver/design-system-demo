@@ -1,14 +1,14 @@
 {
     "mode": "typescript",
-    "packageName": "../soc-demo",
-    "tsConfigPath": "../soc-demo/tsconfig.json",
+    "packageName": "../style-guide/src",
+    "tsConfigPath": "../style-guide/src/tsconfig.json",
     "rootFiles": [
-        "../soc-demo/index.tsx"
+        "../style-guide/src/index.tsx"
     ],
     "additionalImports": [],
     "out": "code/",
     "components": {
-        "Button": {
+        "PrimaryButton": {
             "ignore": false
         }
     }
