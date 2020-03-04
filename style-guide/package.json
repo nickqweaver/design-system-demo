@@ -14,22 +14,23 @@
     "npm-watch": "^0.6.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "typescript": "^3.8.3"
   },
   "watch": {
     "generate": {
       "patterns": [
-        "src/framer"
+        "framer-exports"
       ],
       "extensions": ".tsx"
     }
   },
   "scripts": {
-    "start": "react-scripts start react-scripts generate",
+    "start": "react-scripts start & yarn run watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate": "yarn --cwd ../soc-design-demo.framerfx",
+    "generate": "(cd ../soc-design-demo.framerfx && yarn run generate)",
     "watch": "npm-watch"
   },
   "eslintConfig": {

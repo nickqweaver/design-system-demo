@@ -15,14 +15,16 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "isolatedModules": true
   },
   "include": [
-    "src"
+    "src",
+    "framer"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "framer"
   ]
 }
