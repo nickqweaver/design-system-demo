@@ -1,23 +1,28 @@
 {
-	"license": "MIT",
-	"main": "dist/index.js",
-	"devDependencies": {
-		"@types/react": "^16.8"
-	},
-	"peerDependencies": {
-		"framer": "^1.0",
-		"react": "^16.8"
-	},
-	"framer": {
-		"displayName": "SOC Demo",
-		"id": "e1ca876e-255a-4393-b5df-1350af0683ce"
-	},
-	"author": "Nick Weaver",
-	"name": "@framer/sendoutcards.soc-demo",
-	"version": "1.7.0",
-	"dependencies": {
-		"@emotion/core": "^10.0.28",
-		"@framer/sendoutcards.soc-demo": "^1.7.0",
-		"emotion": "^10.0.27"
-	}
+  "license": "MIT",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/react": "^16.8"
+  },
+  "peerDependencies": {
+    "framer": "^1.0",
+    "react": "^16.8"
+  },
+  "framer": {
+    "displayName": "SOC Demo",
+    "id": "e1ca876e-255a-4393-b5df-1350af0683ce"
+  },
+  "author": "Nick Weaver",
+  "name": "@framer/sendoutcards.soc-demo",
+  "version": "1.7.0",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@framer/sendoutcards.soc-demo": "^1.7.0",
+    "emotion": "^10.0.27"
+  },
+  "scripts": {
+    "generate": "component-importer generate",
+    "re-generate": "component-importer init ../style-guide/framer --index ../style-guide/framer/index.tsx --tsconfig ../style-guide/framer/tsconfig.json  ",
+    "build": "npx framer-cli build soc-design-demo.framerfx"
+  }
 }

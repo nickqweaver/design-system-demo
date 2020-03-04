@@ -1,9 +1,9 @@
 {
     "mode": "typescript",
-    "packageName": "../style-guide/src/framer",
-    "tsConfigPath": "../style-guide/src/framer/tsconfig.json",
+    "packageName": "../style-guide/framer",
+    "tsConfigPath": "../style-guide/framer/tsconfig.json",
     "rootFiles": [
-        "../style-guide/src/framer/index.tsx"
+        "../style-guide/framer/index.tsx"
     ],
     "additionalImports": [],
     "out": "code/",

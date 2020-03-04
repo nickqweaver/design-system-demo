@@ -1,35 +1,35 @@
-import * as React from "react"
-import * as System from "../../style-guide/src/framer"
-import { ControlType, PropertyControls, addPropertyControls } from "framer"
-import { withHOC } from "./withHOC"
+import * as React from "react";
+import * as System from "../../style-guide/framer";
+import { ControlType, PropertyControls, addPropertyControls } from "framer";
+import { withHOC } from "./withHOC";
 
 const InnerPrimaryButton = props => {
-    return <System.PrimaryButton {...props}></System.PrimaryButton>
-}
+  return <System.PrimaryButton {...props}></System.PrimaryButton>;
+};
 
-export const PrimaryButton = withHOC(InnerPrimaryButton)
+export const PrimaryButton = withHOC(InnerPrimaryButton);
 
 PrimaryButton.defaultProps = {
-    width: 150,
-    height: 50,
-}
+  width: 150,
+  height: 50
+};
 
 addPropertyControls(PrimaryButton, {
-    title: {
-        title: "Title",
-        type: ControlType.String,
-        defaultValue: "title",
-    },
-    type: {
-        title: "Type",
-        type: ControlType.Enum,
-        options: ["normal", "pressed", "disabled"],
-        optionTitles: ["normal", "pressed", "disabled"],
-    },
-    colorVariation: {
-        title: "Color variation",
-        type: ControlType.Enum,
-        options: ["grey", "blue"],
-        optionTitles: ["grey", "blue"],
-    },
-})
+  title: {
+    title: "Title",
+    type: ControlType.String,
+    defaultValue: "title"
+  },
+  type: {
+    title: "Type",
+    type: ControlType.Enum,
+    options: ["normal", "pressed", "disabled"],
+    optionTitles: ["normal", "pressed", "disabled"]
+  },
+  colorVariation: {
+    title: "Color variation",
+    type: ControlType.Enum,
+    options: ["grey", "blue"],
+    optionTitles: ["grey", "blue"]
+  }
+});
