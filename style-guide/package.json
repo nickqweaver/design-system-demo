@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "generate": "(cd ../soc-design-demo.framerfx && yarn run generate)",
     "watch": "npm-watch",
-    "dev": "react-scripts start & yarn watch"
+    "dev": "react-scripts start && yarn watch"
   },
   "eslintConfig": {
     "extends": "react-app"
