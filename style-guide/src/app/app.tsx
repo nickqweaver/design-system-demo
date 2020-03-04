@@ -1,5 +1,6 @@
 import * as React from "react";
 import { PrimaryButton } from "../components/atoms/primaryButton/PrimaryButton";
+import { Toggle } from "../components/atoms/Toggle";
 export const App = () => {
   return (
     <div
@@ -34,6 +35,7 @@ export const App = () => {
         colorVariation={"blue"}
         title={"Disabled"}
       />
+      <Toggle on={true} />
     </div>
   );
 };
