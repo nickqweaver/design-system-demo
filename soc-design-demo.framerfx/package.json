@@ -22,7 +22,7 @@
   },
   "scripts": {
     "generate": "component-importer generate",
-    "re-generate": "component-importer init ../style-guide/framer --index ../style-guide/framer/index.tsx --tsconfig ../style-guide/framer/tsconfig.json  ",
+    "overwrite": "component-importer init ../style-guide/framer-exports --index ../style-guide/framer-exports/index.tsx --tsconfig ../style-guide/framer-exports/tsconfig.json  ",
     "build": "npx framer-cli build soc-design-demo.framerfx"
   }
 }
