@@ -17,6 +17,7 @@
   "version": "1.7.0",
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@framer/bzone.ant-design-ui-kit": "^1.6.0",
     "@framer/sendoutcards.soc-demo": "^1.7.0",
     "emotion": "^10.0.27"
   },

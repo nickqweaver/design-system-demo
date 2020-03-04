@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as System from "../../style-guide/framer";
+import * as System from "../../style-guide/framer-exports";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { withHOC } from "./withHOC";
 
