@@ -26,12 +26,13 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start & yarn run watch",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "(cd ../soc-design-demo.framerfx && yarn run generate)",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "dev": "react-scripts start & yarn watch"
   },
   "eslintConfig": {
     "extends": "react-app"
