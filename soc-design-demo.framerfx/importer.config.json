@@ -6,8 +6,11 @@
   "additionalImports": [],
   "out": "code/",
   "components": {
-    "PrimaryButton": {
-      "ignore": false
-    }
+    "Atoms": {
+      "PrimaryButton": {
+        "ignore": false
+      }
+    },
+    "Molecules": {}
   }
 }
